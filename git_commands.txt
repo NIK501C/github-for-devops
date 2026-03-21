@@ -1,0 +1,26 @@
+  17 git status
+  18 git add testing.py
+  19 git status
+  20 git rm --cache
+  21 git rm --cache tetsing.py
+  22 git rm --cache testing.py
+  23 git status
+  24 git add testing.py
+  25 git status
+  26 git commit -m "added test file"
+  27 git config
+  28 git config --global user.email "kushwahnikki02@gmail.com"
+  29 git config --global user.name "NIK501C"
+  30 git commit -m "added test file"
+  31 git status
+  32 rm testing.py
+  33 ls
+  34 git restore testing.py
+  35 git status
+  46 git remote add origin https://github.com/NIK501C/github-for-devops.git
+  47 git remote -v
+  48 git push origin master
+  49 git remote -v
+  50 git remote set-url origin https://personal_access_token@github.com/NIK501C/github-for-devops.git
+  51 git push origin master
+  
